@@ -1,0 +1,13 @@
+platform,"model, input_size",throughput,bs=best,,xla=allowed,prec=best,os,tensorflow version,Nvidia driver version,CUDA version
+clevo,"distelbert, 128",558.6,128,,1,fp16,Ubuntu 20.04,2.8.0,510,11.6
+colab_k80,"distelbert, 128",58.2,32,,1,fp32,Ubuntu 18.04.5,2.8.0,460,11.2
+colab_p100,"distelbert, 128",197.4,32,,1,fp32,Ubuntu 18.04.5,2.8.0,460,11.2
+colab_t4,"distelbert, 128",434.5,128,,1,fp16,Ubuntu 18.04.5,2.8.0,460,11.2
+m1max,"distelbert, 128",127.4,128,,0,fp32,MacOS,2.7.0,,
+razer,"distelbert, 128",568.4,256,,1,fp16,Ubuntu 20.04.4,2.7.0,510,11.1
+clevo,"resnet50v2, 224x224",502,128,,1,fp16,Ubuntu 20.04,2.8.0,510,11.6
+colab_k80,"resnet50v2, 224x224",53.5,128,,1,fp32,Ubuntu 18.04.5,2.8.0,460,11.2
+colab_p100,"resnet50v2, 224x224",217,64,,1,fp32,Ubuntu 18.04.5,2.8.0,460,11.2
+colab_t4,"resnet50v2, 224x224",242.6,32,,1,fp16,Ubuntu 18.04.5,2.8.0,460,11.2
+m1max,"resnet50v2, 224x224",162.6,128,,0,fp32,MacOS,2.7.0,,
+razer,"resnet50v2, 224x224",512.3,256,,1,fp16,Ubuntu 20.04.4,2.7.0,510,11.1
